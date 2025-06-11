@@ -1,0 +1,99 @@
+h1 {
+  font-family: "Irish Grover", sans-serif;
+  font-size: 2.6rem;
+  padding-top: 20px;
+}
+
+main {
+  border-radius: 20px;
+  width: 80vw;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.toggle-theme-btn {
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+}
+
+form {
+  display: flex;
+  gap: 7px;
+}
+
+.task-input {
+  border: none;
+  height: 40px;
+  width: 250px;
+  font-size: 16px;
+  border-radius: 7px;
+  padding: 0 10px;
+}
+
+.add-btn {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 7px;
+  background-color: rgb(0, 228, 164);
+}
+
+.category-selection {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.category-btn {
+  height: 30px;
+  width: 100px;
+  color: rgb(238, 238, 238);
+  background-color: rgb(63, 63, 63);
+  border: none;
+  border-radius: 7px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.category-btn:hover {
+  background-color: rgb(45, 45, 45);
+}
+
+.checkbox-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.checkbox-input {
+  width: 20px;
+  height: 20px;
+}
+
+.delete-btn {
+  height: 30px;
+  width: 30px;
+  display: flex;
+  background-color: rgb(250, 49, 49);
+  border: none;
+  border-radius: 7px;
+  align-items: center;
+  justify-content: center;
+  color: #e7e7e7;
+}
+
+.delete-btn:hover {
+  background-color: rgb(227, 49, 49);
+}
