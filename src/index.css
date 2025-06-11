@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.dark-theme {
+  background-color: rgb(62, 62, 62);
+  color: rgb(227, 227, 227);
+}
+
+button {
+  cursor: pointer;
+}
